@@ -20,7 +20,7 @@ with(data, lines(Time, Sub_metering_2, col = "red"))
 with(data, lines(Time, Sub_metering_3, col = "blue"))
 
 #add legend
-legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), text.col = c("black", "red", "blue"), lty = c(1,1,1))
+legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty = c(1,1,1))
 
 #close device
 dev.off()
